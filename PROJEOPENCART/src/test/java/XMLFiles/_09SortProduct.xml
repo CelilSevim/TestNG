@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/hp/Desktop/TestNG/PROJEOPENCART/src/test/java/testpages/_09SortProductTest.java">
+        <classes>
+            <class name="testpages._09SortProductTest">
+                <methods>
+                    <include name="sortProductTestA_Z"/>
+                    <include name="sortProductTestZ_A"/>
+                    <include name="sortProductTestL_H"/>
+                    <include name="sortProductTestH_L"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
